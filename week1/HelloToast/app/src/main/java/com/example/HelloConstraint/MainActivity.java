@@ -30,9 +30,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void countUp(View view) {
+        mCount = Integer.parseInt(mShowCount.getText().toString());
         mCount++;
+
         if (mShowCount != null)
             mShowCount.setText(Integer.toString(mCount));
+        btn_Zero.setBackgroundColor(getResources().getColor(android.R.color.black));
+
     }
 
     public void putZero(View view){
