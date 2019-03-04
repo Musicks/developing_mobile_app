@@ -1,4 +1,4 @@
-package com.example.HelloToastChallenge;
+package com.example.hellotoastchallenge;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,7 +10,6 @@ public class MainActivity extends AppCompatActivity {
 
     private int mCount = 0;
     private TextView mShowCount;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
